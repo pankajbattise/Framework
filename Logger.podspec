@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "Pankaj Battise" => "pankaj.battise@gmail.com" }
   spec.platform     = :ios, "12.0"
   spec.source       = { :git => "https://github.com/pankajbattise/Framework.git", :tag => "#{spec.version}" }
-  spec.source_files = 'Logger/Source/*.swift'
+  spec.source_files = "Logger/**/*"
   spec.swift_version = "5.0"
 end
